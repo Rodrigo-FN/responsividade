@@ -1,0 +1,96 @@
+.carrossel {
+    font-family: var(--fonte-principal);
+}
+
+.carrossel__titulo {
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--branco);
+    color: var(--laranja);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.card__descricao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes {
+    display: flex;
+}
+
+.descricao__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descricao__titulo-livro, .descricao__autora {
+    color: var(--azul);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0.5em 0;
+}
+
+.descricao__texto {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--preto);
+}
+
+.botoes__item {
+    margin: 0 0.5em;
+}
+
+.botoes__ancora {
+    font-weight: 700;
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    text-decoration: none;
+}
+
+.carross{
+    font-family: var(--fonte-principal);
+}
+
+.carross__titulo {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1em 0 0.5em 0;
+    text-align: center;
+    background-color: var(--branco);
+    color: var(--laranja);
+}
+
+.estrelas {
+    margin-bottom: .5em;
+}
